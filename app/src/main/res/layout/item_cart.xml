@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_marginTop="30dp">
+
+    <ImageView
+        android:id="@+id/cartImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cartTitleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/cartTimeTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/cartAddressTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="14sp" />
+
+        <!-- Price per person TextView -->
+        <TextView
+            android:id="@+id/cartPriceTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: $XX"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_green_dark"/><!-- Optional: set color for emphasis -/>  <!- Add some margin for spacing -->
+
+    </LinearLayout>
+
+    <!-- Delete button -->
+    <ImageView
+        android:id="@+id/deleteButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:padding="8dp"
+        android:src="@android:drawable/ic_menu_delete"
+        android:contentDescription="Delete Item"/>
+
+</LinearLayout>

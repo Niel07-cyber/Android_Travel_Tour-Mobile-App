@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="introTitle"><font color='#3f95ec'>Travel Tour</font> \n Explore with us</string>
+    <string name="subIntro">Your ultimate travel companion – explore, book, and enjoy unforgettable adventures with ease!</string>
+</resources>
